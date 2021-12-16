@@ -7,3 +7,15 @@ def filter(value):
         value = '123456'
     result = value
     return value
+
+#Role IDs
+
+def filter(value):
+    roleDicstrict = { 'TEA':'8', 'TEACH':'8', 'PRIN':'6'}
+
+    if value in roleDicstrict:
+        value = roleDicstrict.get(value)
+    else:
+        value = '10'
+    result = value
+    return value
