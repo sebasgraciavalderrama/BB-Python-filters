@@ -8,7 +8,7 @@ def filter(value):
     else:
         value = '123456'
     result = value
-    return value
+    return result
 
 #Role IDs
 
@@ -20,4 +20,4 @@ def filter(value):
     else:
         value = '10'
     result = value
-    return value
+    return result
